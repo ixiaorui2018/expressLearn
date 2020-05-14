@@ -62,6 +62,7 @@ app.delete("/api/article/:id", async (req, res) => {
     })
 })
 
+//服务端端默认启用3001端口
 app.listen(3001,() =>{
     console.log("服务已启动！")
 })
